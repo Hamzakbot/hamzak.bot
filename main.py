@@ -29,7 +29,7 @@ class Bot(BaseBot):
         print(f"{user.username} entrou na sala")   
         await self.highrise.chat(f"Welcome {user.username} Use: !emote list or 1-97 For Emotes\n\nloop example: !loop 98 or !loop jetpack")
 
-        await self.highrise.chat(f"Use: /help For More Informations.")
+        await self.highrise.chat(f" {user.username} has entered to the room ❤️")
            
         await self.highrise.send_emote("hcc-jetpack")
       
