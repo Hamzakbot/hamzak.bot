@@ -47,4 +47,4 @@ async def userinfo (self: BaseBot, user: User, message: str) -> None:
         print (e)
     
     #Send the info to the chat
-    await self.highrise.chat(f"""Usuario: {username}\nNúmero de seguidores : {number_of_followers}\nNúmero de amigos : {number_of_friends}\nNúmero de seguindo: {number_of_folowing}\nEntrou no HR em : {joined_at}\nÚltimo Login: {last_login}\nNúmero de posts : {number_of_posts}\nMais curtidas em uma postagem : {most_likes_post}""")
+    await self.highrise.chat(f"""User: {username}\nNumber of followers: {number_of_followers}\nNumber of friends: {number_of_friends}\nNumber of following: {number_of_folowing}\nJoined at: {joined_at}\nLast login: {last_login}\nNumber of posts: {number_of_posts}\nMost likes in a post: {most_likes_post}""")
