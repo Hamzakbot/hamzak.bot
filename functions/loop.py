@@ -37,7 +37,7 @@ async def loop(self: BaseBot, user: User, message: str) -> None:
             except:
                 await self.highrise.send_whisper(user.id,f"✅️{user.username} Siga <@Ashokk> Para Novas Novidades e Mande Ideias Na Nossa Hastag : #Ashokk ✅️")
                 return
-            await asyncio.sleep(23)
+            await asyncio.sleep(6)
             room_users = (await self.highrise.get_room_users()).content
             user_in_room = False
             for room_user, position in room_users:
