@@ -4,8 +4,6 @@ import importlib.util
 from highrise import*
 from highrise import BaseBot,Item,Position
 from highrise.models import SessionMetadata
-from pathlib import Path
-import json
 
 moderators = ["_Thomash","ghost.17","__.HALAA.__"]
 
@@ -40,75 +38,6 @@ class Bot(BaseBot):
     def __init__(self):
         super().__init__()
         self.frozen_users = {}
-        self.teleport_file = Path("teleports.json")
-        if not self.teleport_file.exists():
-            with open(self.teleport_file, 'w') as f:
-                json.dump({}, f)  # Initialize empty JSON file
-
-    def save_position(self, position_name, position, restricted=False):
-        try:
-            with open(self.teleport_file, 'r') as f:
-                positions = json.load(f)
-        except (json.JSONDecodeError, FileNotFoundError):
-            positions = {}
-
-        positions[position_name] = {
-            "x": position.x,
-            "y": position.y,
-            "z": position.z,
-            "facing": position.facing,
-            "restricted": restricted
-        }
-
-        with open(self.teleport_file, 'w') as f:
-            json.dump(positions, f, indent=4)
-
-    def load_position(self, position_name):
-        try:
-            with open(self.teleport_file, 'r') as f:
-                positions = json.load(f)
-        except (json.JSONDecodeError, FileNotFoundError):
-            return None, None
-
-        if position_name in positions:
-            data = positions[position_name]
-            return Position(
-                data.get("x", 0),
-                data.get("y", 0),
-                data.get("z", 0),
-                facing=data.get("facing", 'FrontRight')
-            ), data.get("restricted", False)
-
-        return None, None
-
-    def delete_position(self, position_name):
-        try:
-            with open(self.teleport_file, 'r') as f:
-                positions = json.load(f)
-        except (json.JSONDecodeError, FileNotFoundError):
-            return False
-
-        if position_name in positions:
-            del positions[position_name]
-            with open(self.teleport_file, 'w') as f:
-                json.dump(positions, f, indent=4)
-            return True
-
-        return False
-
-    def load_dynamic_positions(self):
-        try:
-            with open(self.teleport_file, 'r') as f:
-                positions = json.load(f)
-        except (json.JSONDecodeError, FileNotFoundError):
-            return {}
-
-        return {
-            name: Position(
-                data["x"], data["y"], data["z"], facing=data.get("facing", 'FrontRight')
-            )
-            for name, data in positions.items()
-        }
       
     async def on_chat(self, user: User, message: str) -> None:
         print(f"{user.username}: {message}")  
@@ -176,93 +105,6 @@ class Bot(BaseBot):
                       return
                   for bar in tip:
                       await self.highrise.tip_user(room_user.id, bar)
-
-
-        if message.lower().startswith("!create tele "):
-            privilege_response = await self.highrise.get_room_privilege(user.id)
-            if not (privilege_response.moderator or user.username.lower() in OWNER_USER or self.has_permission(user.id)):
-                await self.highrise.send_whisper(user.id, "You don't have permission to use this command.")
-                return
-
-            parts = message.split()
-            if len(parts) < 3:
-                await self.highrise.send_whisper(user.id, "Usage: !create tele <name> [restricted]")
-                return
-
-            position_name = parts[2].lower()
-            restricted = len(parts) > 3 and parts[3].lower() == "restricted"
-
-            room_users = (await self.highrise.get_room_users()).content
-            for room_user, pos in room_users:
-                if room_user.id == user.id:
-                    self.save_position(position_name, pos, restricted=restricted)
-                    await self.highrise.send_whisper(user.id, f"Position '{position_name}' saved (restricted={restricted}).")
-                    break
-            else:
-                await self.highrise.send_whisper(user.id, "Unable to save your current position.")
-
-        if message.lower() in self.load_dynamic_positions().keys():  # FIXED
-            position_name = message.lower()
-            saved_position, restricted = self.load_position(position_name)
-
-            if restricted:
-                privilege_response = await self.highrise.get_room_privilege(user.id)
-                if not (privilege_response.moderator or user.username.lower() in OWNER_USER):
-                    await self.highrise.send_whisper(user.id, "You don't have permission to access this teleport.")
-                    return
-
-            if saved_position:
-                await self.highrise.teleport(user.id, saved_position)
-                await self.highrise.send_whisper(user.id, f"Teleported to '{position_name}'.")
-            else:
-                await self.highrise.send_whisper(user.id, f"Position '{position_name}' does not exist.")   
-
-
-
-
-        if message.lower().startswith("!remove tele "):
-            privilege_response = await self.highrise.get_room_privilege(user.id)
-            if not (privilege_response.moderator or user.username.lower() in OWNER_USER or self.has_permission(user.id)):
-                await self.highrise.send_whisper(user.id, "You don't have permission to use this command.")
-                return
-
-            position_name = message[13:].strip().lower()  
-            if self.delete_position(position_name):
-                await self.highrise.send_whisper(user.id, f"Position '{position_name}' removed.")
-            else:
-                await self.highrise.send_whisper(user.id, f"Position '{position_name}' not found.") 
-
-
-        if message.lower().startswith("!botfit"):
-            privilege_response = await self.highrise.get_room_privilege(user.id)
-            if not (privilege_response.moderator or user.username.lower() in OWNER_USER):
-                await self.highrise.send_whisper(user.id, "You don't have permission to use this command.")
-                return
-            try:
-                user_outfit_response = await self.highrise.get_user_outfit(user.id)
-            except Exception as e:
-                print(f"Error fetching user's outfit: {e}")
-                return
-            user_outfit_items = user_outfit_response.outfit
-            bot_outfit = []
-            for item in user_outfit_items:
-                try:
-                    bot_outfit.append(
-                        Item(
-                            type=item.type,
-                            amount=item.amount,
-                            id=item.id,
-                            account_bound=item.account_bound,
-                            active_palette=item.active_palette
-                        )
-                    )
-                    await self.highrise.set_outfit(outfit=bot_outfit)
-                except Exception as e:
-                    print(f"Error processing item {item.id}: {e}")
-            print("Finished updating the bot's outfit.")
-            await self.highrise.send_whisper(user.id, "Finished updating the bot's outfit!")
-
-        
 
         if message.lower().startswith("!tipme ") and user.username in moderators:
                 try:
