@@ -27,9 +27,9 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(14.5 , 2.0 , 6.5 , "FrontLeft"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.chat(f"Welcome {user.username} to the king's room")
+        await self.highrise.chat(f"Welcome {user.username} to the room ❤️")
 
-        await self.highrise.chat(f" {user.username} has entered to the room â¤ï¸")
+        await self.highrise.chat(f" {user.username} has entered to the room ❤️")
            
         await self.highrise.send_emote("hcc-jetpack")
       
