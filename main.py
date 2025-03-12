@@ -7,19 +7,19 @@ from highrise.models import SessionMetadata
 
 moderators = ["_Thomash","ghost.17","__.HALAA.__"]
 
-casa = ["I Marry You ðŸ’","Of course I do ðŸ’â¤ï¸","I don't want to ðŸ’ðŸ’”","Of course I don't ðŸ’ðŸ’”","I Love You Of course I marry you ðŸ’"]
+casa = ["I Marry You Ã°Å¸â€™Â","Of course I do Ã°Å¸â€™ÂÃ¢ÂÂ¤Ã¯Â¸Â","I don't want to Ã°Å¸â€™ÂÃ°Å¸â€™â€","Of course I don't Ã°Å¸â€™ÂÃ°Å¸â€™â€","I Love You Of course I marry you Ã°Å¸â€™Â"]
 
-curativo = ["ðŸ”´You Used the Bandage Your Life Is at: 100%ðŸ”´","ðŸ”´You Used the Bandage Your Life is at: 50%ðŸ”´","ðŸ”´You Used the Bandage Your Life is at: 60%ðŸ”´","ðŸ”´You Used Your Life Bandage is at: 75% Your Life is at: 90%ðŸ”´","ðŸ”´You Used the Bandage It is at: 91%ðŸ”´"]
+curativo = ["Ã°Å¸â€Â´You Used the Bandage Your Life Is at: 100%Ã°Å¸â€Â´","Ã°Å¸â€Â´You Used the Bandage Your Life is at: 50%Ã°Å¸â€Â´","Ã°Å¸â€Â´You Used the Bandage Your Life is at: 60%Ã°Å¸â€Â´","Ã°Å¸â€Â´You Used Your Life Bandage is at: 75% Your Life is at: 90%Ã°Å¸â€Â´","Ã°Å¸â€Â´You Used the Bandage It is at: 91%Ã°Å¸â€Â´"]
          
-bomba = ["ðŸ’£ðŸ§Ÿâ€â™‚ï¸ You Threw a Bomb on 1x Boss Zombie ðŸ§Ÿâ€â™€ï¸ðŸ’£","ðŸ’£ðŸ§Ÿ You Threw a Bomb on 3x Boss Zombie ðŸ§ŸðŸ’£","ðŸ’£ðŸ§Ÿâ€â™‚ï¸ You Threw a Bomb on 2x Boss Zombie ðŸ’£ðŸ§Ÿâ€â™€ï¸","ðŸ’£ ðŸ§Ÿâ€â™‚ï¸ You Threw a Bomb on 7x Boss Zombie ðŸ’£ðŸ§Ÿâ€â™‚ï¸","ðŸ’£ðŸ§Ÿ You Threw a Bomb on 4x Boss Zombie ðŸ§ŸðŸ’£"]
+bomba = ["Ã°Å¸â€™Â£Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â You Threw a Bomb on 1x Boss Zombie Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂÃ°Å¸â€™Â£","Ã°Å¸â€™Â£Ã°Å¸Â§Å¸ You Threw a Bomb on 3x Boss Zombie Ã°Å¸Â§Å¸Ã°Å¸â€™Â£","Ã°Å¸â€™Â£Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â You Threw a Bomb on 2x Boss Zombie Ã°Å¸â€™Â£Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸Â","Ã°Å¸â€™Â£ Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â You Threw a Bomb on 7x Boss Zombie Ã°Å¸â€™Â£Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â","Ã°Å¸â€™Â£Ã°Å¸Â§Å¸ You Threw a Bomb on 4x Boss Zombie Ã°Å¸Â§Å¸Ã°Å¸â€™Â£"]
 
-facada = ["ðŸ§ŸðŸ”ª You Stabbed 1x Zombie ðŸ”ªðŸ§Ÿ","ðŸ§ŸðŸ”ª You Stabbed 6x Zombie ðŸ”ªðŸ§Ÿ","ðŸ§ŸðŸ”ª You Stabbed 7x Zombie ðŸ”ªðŸ§Ÿ","ðŸ§Ÿâ€â™‚ï¸ðŸ”ªðŸ§Ÿâ€â™‚ï¸ You Stabbed 8x Zombie ðŸ”ªðŸ§Ÿâ€â™‚ï¸","ðŸ§Ÿ ðŸ”ª You Stabbed 10x Zombie ðŸ”ªðŸ§Ÿ","ðŸ§ŸðŸ”ª You Stabbed 9x Zombie ðŸ”ªðŸ§Ÿ","ðŸ§Ÿâ€â™€ï¸ðŸ”ªðŸ§Ÿâ€â™‚ï¸ You Stabbed 3x Zombie ðŸ§Ÿâ€â™‚ï¸ðŸ”ªðŸ§Ÿâ€â™€ï¸"]
+facada = ["Ã°Å¸Â§Å¸Ã°Å¸â€Âª You Stabbed 1x Zombie Ã°Å¸â€ÂªÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸Ã°Å¸â€Âª You Stabbed 6x Zombie Ã°Å¸â€ÂªÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸Ã°Å¸â€Âª You Stabbed 7x Zombie Ã°Å¸â€ÂªÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸ÂÃ°Å¸â€ÂªÃ°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â You Stabbed 8x Zombie Ã°Å¸â€ÂªÃ°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â","Ã°Å¸Â§Å¸ Ã°Å¸â€Âª You Stabbed 10x Zombie Ã°Å¸â€ÂªÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸Ã°Å¸â€Âª You Stabbed 9x Zombie Ã°Å¸â€ÂªÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂÃ°Å¸â€ÂªÃ°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â You Stabbed 3x Zombie Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸ÂÃ°Å¸â€ÂªÃ°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸Â"]
 
-atirar = ["ðŸ§ŸYou Shot 5x ZombieðŸ§Ÿ","ðŸ§ŸYou Shot 1x ZombieðŸ§Ÿ","ðŸ§ŸYou Shot 8x ZombieðŸ§Ÿ","ðŸ§ŸYou Shot 3x ZombieðŸ§Ÿ","ðŸ§Ÿâ€â™‚ï¸You Shot 5x ZombieðŸ§Ÿâ€â™‚ï¸ ","ðŸ§Ÿâ€â™€ï¸You Shot 10x ZombieðŸ§Ÿâ€â™€ï¸","ðŸ§ŸðŸ§Ÿâ€â™€ï¸You Shot 9x Zombie ðŸ§ŸðŸ§Ÿâ€â™€ï¸"]
+atirar = ["Ã°Å¸Â§Å¸You Shot 5x ZombieÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸You Shot 1x ZombieÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸You Shot 8x ZombieÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸You Shot 3x ZombieÃ°Å¸Â§Å¸","Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸ÂYou Shot 5x ZombieÃ°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â ","Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂYou Shot 10x ZombieÃ°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸Â","Ã°Å¸Â§Å¸Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂYou Shot 9x Zombie Ã°Å¸Â§Å¸Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸Â"]
 
-play = ["ðŸ”´Your Life is at 50% use : /bandage","ðŸ”´Your Life is at 20% use : /bandage","ðŸ”´Your Life is at 40% use : /bandage","ðŸ§ŸThe Zombies Are Coming Use : /stab or /shoot","ðŸ§ŸðŸ§Ÿâ€â™‚ï¸ There Are Many Zombies ðŸ§Ÿâ€â™€ï¸ðŸ§Ÿ ðŸ›¡ Use: /shield ðŸ›¡","ðŸ§ŸThe Zombie Boss Is Coming Use: /bomb","ðŸ§ŸThe Zombies Are Coming Use: /stab or/ shoot","ðŸ§ŸðŸ§Ÿâ€â™‚ï¸ There are Lots of Zombies ðŸ§Ÿâ€â™€ï¸ðŸ§Ÿ ðŸ›¡ Use: /shield ðŸ›¡","ðŸ”´Your Life is at 60% use: /bandage","ðŸ”´Your Life is at 10% use: /bandage" ,"ðŸ§ŸThe Zombies Are Coming Use : /stab or /shoot" ,"ðŸ§ŸThe Zombies Are Coming Use : /stab or /shoot","ðŸ§ŸThe Zombies Are Coming Use : /stab or /shoot","ðŸ§ŸThe Zombies They're Coming Use : /stab or /shoot","ðŸ§ŸThe Zombies Are Coming Use : /stab or /shoot","ðŸ§ŸThe Zombies Are Coming Use : /stab or /shoot "]
+play = ["Ã°Å¸â€Â´Your Life is at 50% use : /bandage","Ã°Å¸â€Â´Your Life is at 20% use : /bandage","Ã°Å¸â€Â´Your Life is at 40% use : /bandage","Ã°Å¸Â§Å¸The Zombies Are Coming Use : /stab or /shoot","Ã°Å¸Â§Å¸Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â There Are Many Zombies Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂÃ°Å¸Â§Å¸ Ã°Å¸â€ºÂ¡ Use: /shield Ã°Å¸â€ºÂ¡","Ã°Å¸Â§Å¸The Zombie Boss Is Coming Use: /bomb","Ã°Å¸Â§Å¸The Zombies Are Coming Use: /stab or/ shoot","Ã°Å¸Â§Å¸Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â There are Lots of Zombies Ã°Å¸Â§Å¸Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂÃ°Å¸Â§Å¸ Ã°Å¸â€ºÂ¡ Use: /shield Ã°Å¸â€ºÂ¡","Ã°Å¸â€Â´Your Life is at 60% use: /bandage","Ã°Å¸â€Â´Your Life is at 10% use: /bandage" ,"Ã°Å¸Â§Å¸The Zombies Are Coming Use : /stab or /shoot" ,"Ã°Å¸Â§Å¸The Zombies Are Coming Use : /stab or /shoot","Ã°Å¸Â§Å¸The Zombies Are Coming Use : /stab or /shoot","Ã°Å¸Â§Å¸The Zombies They're Coming Use : /stab or /shoot","Ã°Å¸Â§Å¸The Zombies Are Coming Use : /stab or /shoot","Ã°Å¸Â§Å¸The Zombies Are Coming Use : /stab or /shoot "]
 
-pescar = ["ðŸ¥ˆYOU WON THE MEDAL: SILVER FISHERMANðŸ¥ˆ","ðŸ¥‰YOU WON THE MEDAL: BRONZE FISHERMANðŸ¥‰","ðŸ¥‰YOU WON THE MEDAL: BRONZE FISHERMANðŸ¥‰","ðŸ¥‰YOU WON THE MEDAL: BRONZE FISHERMANðŸ¥‰","ðŸ¥‰YOU WON OR THE MEDAL: BRONZE FISHERMANðŸ¥‰","ðŸŸ¡Event: /carp ðŸŸ¡","âš«ï¸You Fished 3x Night Moonâš«ï¸(+150 POINTS)","âš«ï¸You Fished 2x Night Moonâš«ï¸(+100 POINTS)"," âš«ï¸You Fished 1x Night Moonâš«ï¸(+50 POINTS)","ðŸŸ¡You Fished 1x Golden Shrimp ðŸŸ¡ (MULTIPLE POINT)","ðŸŸ¡You Fished 1x Golden FlounderðŸŸ¡ (MULTIPLE POINT)","ðŸª¼ðŸŒˆYou Fished 1x Octopus RainbowðŸª¼ðŸŒˆ (EXTRA POINTS)","ðŸ¢You Caught 3x Turtle ðŸ¢ (LOSS OF POINTS)","ðŸ¦‘You Caught 1x Giant Squid ðŸ¦‘ (LEGENDARY)","ðŸ¦€You Caught 6x Crab ðŸ¦€ (COMMON)", "ðŸ¦€You Caught 2x Crab ðŸ¦€ (COMMON)","ðŸ¦€You Caught 8x Crab ðŸ¦€ (COMMON)","ðŸª¼You Caught 1x Sea OctopusðŸª¼(EPIC)","ðŸ¦ˆYou Caught 2x SharkðŸ¦ˆ (EPIC)", "ðŸ¦ˆYou Fished 5x SharksðŸ¦ˆ (EPIC)","ðŸ¦ˆYou Fished 8x SharksðŸ¦ˆ (EPIC)","ðŸ¦ˆYou Fished 1x SharksðŸ¦ˆ (EPIC)","ðŸ You Fished 1x Sea TunaðŸ  (LEGENDARY)", "ðŸ You Caught 3x Clown FishðŸ  (LEGENDARIOUS)","ðŸ You Caught 3x Sea TunaðŸ  (LEGENDARIOUS)","ðŸ You Caught 1x Clown FishðŸ  (LEGENDARIOUS)","ðŸ You Caught 8x Clown FishðŸ  (LEGENDARY) )","ðŸ You Caught 10x Clown FishðŸ  (LEGENDARY)","ðŸŸYou Caught 1x SalmonðŸŸ (RARE)","ðŸ§œðŸ¼â€â™€ï¸You Caught 5x MermaidðŸ§œðŸ¼â€â™€ï¸(EPIC)","ðŸ§œðŸ¼â€ â™€ï¸You Caught 2x MermaidðŸ§œðŸ¼â€â™€ï¸(EPIC)","ðŸ§œðŸ¼â€â™€ï¸You Caught 1x MermaidðŸ§œðŸ¼â€â™€ï¸(EPIC)","ðŸŸYou Caught 3x SalmonðŸŸ (RARE)","ðŸŸ¡You Caught 1 x Tilapia DouradaðŸŸ¡ (MULTIPLE POINT)","â˜ ï¸ðŸ‹You Caught 3x Dead Whaleâ˜ ï¸ðŸ‹ (LOSS OF POINTS)","ðŸ‹You Caught 11x Sea WhaleðŸ‹(COMMON)","ðŸ‹ðŸŒˆYou Caught 1x Rainbow WhaleðŸŒˆ ðŸ‹ (EXTRA POINTS)","ðŸ¥ˆYOU WON THE MEDAL: SILVER FISHERMANðŸ¥ˆ","ðŸ¥‡YOU WON THE MEDAL: GOLD FISHERMANðŸ¥‡","ðŸ…YOU WON THE MEDAL: STAR FISHERMANðŸ…","ðŸ’ŽEvent: /shrimp ðŸ’Ž"]
+pescar = ["Ã°Å¸Â¥Ë†YOU WON THE MEDAL: SILVER FISHERMANÃ°Å¸Â¥Ë†","Ã°Å¸Â¥â€°YOU WON THE MEDAL: BRONZE FISHERMANÃ°Å¸Â¥â€°","Ã°Å¸Â¥â€°YOU WON THE MEDAL: BRONZE FISHERMANÃ°Å¸Â¥â€°","Ã°Å¸Â¥â€°YOU WON THE MEDAL: BRONZE FISHERMANÃ°Å¸Â¥â€°","Ã°Å¸Â¥â€°YOU WON OR THE MEDAL: BRONZE FISHERMANÃ°Å¸Â¥â€°","Ã°Å¸Å¸Â¡Event: /carp Ã°Å¸Å¸Â¡","Ã¢Å¡Â«Ã¯Â¸ÂYou Fished 3x Night MoonÃ¢Å¡Â«Ã¯Â¸Â(+150 POINTS)","Ã¢Å¡Â«Ã¯Â¸ÂYou Fished 2x Night MoonÃ¢Å¡Â«Ã¯Â¸Â(+100 POINTS)"," Ã¢Å¡Â«Ã¯Â¸ÂYou Fished 1x Night MoonÃ¢Å¡Â«Ã¯Â¸Â(+50 POINTS)","Ã°Å¸Å¸Â¡You Fished 1x Golden Shrimp Ã°Å¸Å¸Â¡ (MULTIPLE POINT)","Ã°Å¸Å¸Â¡You Fished 1x Golden FlounderÃ°Å¸Å¸Â¡ (MULTIPLE POINT)","Ã°Å¸ÂªÂ¼Ã°Å¸Å’Ë†You Fished 1x Octopus RainbowÃ°Å¸ÂªÂ¼Ã°Å¸Å’Ë† (EXTRA POINTS)","Ã°Å¸ÂÂ¢You Caught 3x Turtle Ã°Å¸ÂÂ¢ (LOSS OF POINTS)","Ã°Å¸Â¦â€˜You Caught 1x Giant Squid Ã°Å¸Â¦â€˜ (LEGENDARY)","Ã°Å¸Â¦â‚¬You Caught 6x Crab Ã°Å¸Â¦â‚¬ (COMMON)", "Ã°Å¸Â¦â‚¬You Caught 2x Crab Ã°Å¸Â¦â‚¬ (COMMON)","Ã°Å¸Â¦â‚¬You Caught 8x Crab Ã°Å¸Â¦â‚¬ (COMMON)","Ã°Å¸ÂªÂ¼You Caught 1x Sea OctopusÃ°Å¸ÂªÂ¼(EPIC)","Ã°Å¸Â¦Ë†You Caught 2x SharkÃ°Å¸Â¦Ë† (EPIC)", "Ã°Å¸Â¦Ë†You Fished 5x SharksÃ°Å¸Â¦Ë† (EPIC)","Ã°Å¸Â¦Ë†You Fished 8x SharksÃ°Å¸Â¦Ë† (EPIC)","Ã°Å¸Â¦Ë†You Fished 1x SharksÃ°Å¸Â¦Ë† (EPIC)","Ã°Å¸Â You Fished 1x Sea TunaÃ°Å¸Â  (LEGENDARY)", "Ã°Å¸Â You Caught 3x Clown FishÃ°Å¸Â  (LEGENDARIOUS)","Ã°Å¸Â You Caught 3x Sea TunaÃ°Å¸Â  (LEGENDARIOUS)","Ã°Å¸Â You Caught 1x Clown FishÃ°Å¸Â  (LEGENDARIOUS)","Ã°Å¸Â You Caught 8x Clown FishÃ°Å¸Â  (LEGENDARY) )","Ã°Å¸Â You Caught 10x Clown FishÃ°Å¸Â  (LEGENDARY)","Ã°Å¸ÂÅ¸You Caught 1x SalmonÃ°Å¸ÂÅ¸ (RARE)","Ã°Å¸Â§Å“Ã°Å¸ÂÂ¼Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂYou Caught 5x MermaidÃ°Å¸Â§Å“Ã°Å¸ÂÂ¼Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸Â(EPIC)","Ã°Å¸Â§Å“Ã°Å¸ÂÂ¼Ã¢â‚¬Â Ã¢â„¢â‚¬Ã¯Â¸ÂYou Caught 2x MermaidÃ°Å¸Â§Å“Ã°Å¸ÂÂ¼Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸Â(EPIC)","Ã°Å¸Â§Å“Ã°Å¸ÂÂ¼Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸ÂYou Caught 1x MermaidÃ°Å¸Â§Å“Ã°Å¸ÂÂ¼Ã¢â‚¬ÂÃ¢â„¢â‚¬Ã¯Â¸Â(EPIC)","Ã°Å¸ÂÅ¸You Caught 3x SalmonÃ°Å¸ÂÅ¸ (RARE)","Ã°Å¸Å¸Â¡You Caught 1 x Tilapia DouradaÃ°Å¸Å¸Â¡ (MULTIPLE POINT)","Ã¢Ëœ Ã¯Â¸ÂÃ°Å¸Ââ€¹You Caught 3x Dead WhaleÃ¢Ëœ Ã¯Â¸ÂÃ°Å¸Ââ€¹ (LOSS OF POINTS)","Ã°Å¸Ââ€¹You Caught 11x Sea WhaleÃ°Å¸Ââ€¹(COMMON)","Ã°Å¸Ââ€¹Ã°Å¸Å’Ë†You Caught 1x Rainbow WhaleÃ°Å¸Å’Ë† Ã°Å¸Ââ€¹ (EXTRA POINTS)","Ã°Å¸Â¥Ë†YOU WON THE MEDAL: SILVER FISHERMANÃ°Å¸Â¥Ë†","Ã°Å¸Â¥â€¡YOU WON THE MEDAL: GOLD FISHERMANÃ°Å¸Â¥â€¡","Ã°Å¸Ââ€¦YOU WON THE MEDAL: STAR FISHERMANÃ°Å¸Ââ€¦","Ã°Å¸â€™Å½Event: /shrimp Ã°Å¸â€™Å½"]
 
 class Bot(BaseBot):
     async def on_start(self, session_metadata: SessionMetadata) -> None:
@@ -27,9 +27,9 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(14.5 , 2.0 , 6.5 , "FrontLeft"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.chat(f"Welcome {user.username} to the room ❤️")
+        await self.highrise.chat(f"Welcome {user.username} to the room ❤️")
 
-        await self.highrise.chat(f" {user.username} has entered to the room ❤️")
+        await self.highrise.chat(f" {user.username} has entered to the room 💓")
            
         await self.highrise.send_emote("hcc-jetpack")
       
@@ -106,6 +106,31 @@ class Bot(BaseBot):
                   for bar in tip:
                       await self.highrise.tip_user(room_user.id, bar)
 
+        if message.lower().startswith("!botfit") and user.username in moderators:
+            try:
+                user_outfit_response = await self.highrise.get_user_outfit(user.id)
+            except Exception as e:
+                print(f"Error fetching user's outfit: {e}")
+                return
+            user_outfit_items = user_outfit_response.outfit
+            bot_outfit = []
+            for item in user_outfit_items:
+                try:
+                    bot_outfit.append(
+                        Item(
+                            type=item.type,
+                            amount=item.amount,
+                            id=item.id,
+                            account_bound=item.account_bound,
+                            active_palette=item.active_palette
+                        )
+                    )
+                    await self.highrise.set_outfit(outfit=bot_outfit)
+                except Exception as e:
+                    print(f"Error processing item {item.id}: {e}")
+            print("Finished updating the bot's outfit.")
+            await self.highrise.send_whisper(user.id, "Finished updating the bot's outfit!")
+
         if message.lower().startswith("!tipme ") and user.username in moderators:
                 try:
                     amount_str = message.split(" ")[1]
@@ -159,7 +184,7 @@ class Bot(BaseBot):
                     await self.highrise.chat("Invalid tip amount. Please specify a valid number.")
                     
         if message.startswith("/fish"):
-            await self.highrise.send_whisper(user.id,"You Are Fishing ðŸŽ£...")
+            await self.highrise.send_whisper(user.id,"You Are Fishing Ã°Å¸Å½Â£...")
 
         if message.lower().startswith("!freeze") and user.username in moderators:
             parts = message.split()
@@ -233,17 +258,17 @@ class Bot(BaseBot):
 
         if message.startswith("/carp"):
            await self.highrise.react("clap",user.id)
-           await self.highrise.send_whisper(user.id,"ðŸŸ¡You Caught 1x Golden CarpðŸŸ¡ YOU WON THE MEDAL: (MEGA FISHERMAN) ")
+           await self.highrise.send_whisper(user.id,"Ã°Å¸Å¸Â¡You Caught 1x Golden CarpÃ°Å¸Å¸Â¡ YOU WON THE MEDAL: (MEGA FISHERMAN) ")
           
         if message.startswith("/shrimp"):
            await self.highrise.react("clap",user.id)
-           await self.highrise.send_whisper(user.id,"ðŸ’ŽYou Caught 1x Diamond ShrimpðŸ’ŽYOU WON THE MEDAL: (DIAMANTE MASTER FISHERMAN  )")                                
+           await self.highrise.send_whisper(user.id,"Ã°Å¸â€™Å½You Caught 1x Diamond ShrimpÃ°Å¸â€™Å½YOU WON THE MEDAL: (DIAMANTE MASTER FISHERMAN  )")                                
         if message.startswith("/curative"):
            await self.highrise.react("heart",user.id)
 
         if message.startswith("/shield"):
            await self.highrise.react("heart",user.id)
-           await self.highrise.send_whisper(user.id,f"@{user.username} ðŸ›¡ You Used The Shield ðŸ›¡")
+           await self.highrise.send_whisper(user.id,f"@{user.username} Ã°Å¸â€ºÂ¡ You Used The Shield Ã°Å¸â€ºÂ¡")
             
         if        message.startswith("/tele") or              message.startswith("/tp") or              message.startswith("/fly") or     message.startswith("!tele") or      message.startswith("!tp") or     message.startswith("!fly"):
           if user.username in moderators:            await self.teleporter(message)
@@ -273,7 +298,7 @@ class Bot(BaseBot):
           await self.highrise.send_whisper(user.id,"Skating All , Time All , Gottago All  , Scritchy All , Bitnervous All , Jingle All , Curtsy All , Hot All , Hyped All ,Sleigh All , Surprise All, Repose All , Kawaii All , Touch All , Gift All , Pushit All , Tiktok All , Smooch All , Launch All")
           
         if        message.startswith("/lista") or   message.startswith("/emotes") or         message.startswith("/emote list") or message.startswith("!emotes") or message.startswith("!emote list") or message.startswith("!lista"):
-          await self.highrise.send_whisper(user.id,"ðŸ•ºðŸ»Lista de emotes gratis:\n\n1.wrong\n2.fashion\n3.gravity\n4.icecream\n5.casual\n6.kiss\n7.no\n8.sad\n9.yes\n10.laughing\n11.hello\n12.wave\n13.shy\n14.tired\n15.flirtywave\n16.greedy\n17.model\n18.bow\n19.curtsy")
+          await self.highrise.send_whisper(user.id,"Ã°Å¸â€¢ÂºÃ°Å¸ÂÂ»Lista de emotes gratis:\n\n1.wrong\n2.fashion\n3.gravity\n4.icecream\n5.casual\n6.kiss\n7.no\n8.sad\n9.yes\n10.laughing\n11.hello\n12.wave\n13.shy\n14.tired\n15.flirtywave\n16.greedy\n17.model\n18.bow\n19.curtsy")
 
         if        message.startswith("/lista") or   message.startswith("/emotes") or         message.startswith("/emote list") or message.startswith("!emotes") or message.startswith("!emote list") or message.startswith("!lista"):
           await self.highrise.send_whisper(user.id,"\n20.snowball\n21.hot\n22.snowangel\n23.charging\n24.confused\n25.telekinesis\n26.float\n27.teleport\n28.maniac\n29.eneryball\n30.snake\n31.frog\n32.superpose\n33.cute\n34.pose7\n35.pose8\n36.pose1\n37.pose5\n38.pose3")
@@ -301,68 +326,68 @@ class Bot(BaseBot):
             await self.highrise.chat(f"{user.username} all activation codes must be used >> ! or/")
             await self.highrise.send_emote("dance-floss")
           
-        if        message.startswith("ðŸ˜¡") or      message.startswith("ðŸ¤¬") or      message.startswith("ðŸ˜¤") or             message.startswith("ðŸ¤¨") or             message.startswith("ðŸ˜’") or message.startswith("ðŸ™„"):
+        if        message.startswith("Ã°Å¸ËœÂ¡") or      message.startswith("Ã°Å¸Â¤Â¬") or      message.startswith("Ã°Å¸ËœÂ¤") or             message.startswith("Ã°Å¸Â¤Â¨") or             message.startswith("Ã°Å¸Ëœâ€™") or message.startswith("Ã°Å¸â„¢â€ž"):
             await self.highrise.send_emote("emote-boxer",user.id)
    
-        if        message.startswith("ðŸ¤”") or      message.startswith("ðŸ§") or      message.startswith("ðŸ¥¸") or             message.startswith("ðŸ«¤") or message.startswith("ðŸ˜•"):
+        if        message.startswith("Ã°Å¸Â¤â€") or      message.startswith("Ã°Å¸Â§Â") or      message.startswith("Ã°Å¸Â¥Â¸") or             message.startswith("Ã°Å¸Â«Â¤") or message.startswith("Ã°Å¸Ëœâ€¢"):
             await self.highrise.send_emote("emote-confused",user.id)
 
-        if        message.startswith("ðŸ¤£") or      message.startswith("ðŸ˜‚") or             message.startswith("ja") or             message.startswith("Ha") or         message.startswith("Ka") or           message.startswith("Ja") or           message.startswith("ha") or          message.startswith("ks") or             message.startswith("kk") or             message.startswith("Kk") or message.startswith("ðŸ˜") or message.startswith("ðŸ˜€"):
+        if        message.startswith("Ã°Å¸Â¤Â£") or      message.startswith("Ã°Å¸Ëœâ€š") or             message.startswith("ja") or             message.startswith("Ha") or         message.startswith("Ka") or           message.startswith("Ja") or           message.startswith("ha") or          message.startswith("ks") or             message.startswith("kk") or             message.startswith("Kk") or message.startswith("Ã°Å¸ËœÂ") or message.startswith("Ã°Å¸Ëœâ‚¬"):
             await self.highrise.send_emote("emote-laughing",user.id)
 
-        if        message.startswith("ðŸ˜—") or      message.startswith("ðŸ˜˜") or      message.startswith("ðŸ˜™") or             message.startswith("ðŸ’‹") or             message.startswith("ðŸ˜š"):
+        if        message.startswith("Ã°Å¸Ëœâ€”") or      message.startswith("Ã°Å¸ËœËœ") or      message.startswith("Ã°Å¸Ëœâ„¢") or             message.startswith("Ã°Å¸â€™â€¹") or             message.startswith("Ã°Å¸ËœÅ¡"):
             await self.highrise.send_emote("emote-kiss",user.id)
             await self.highrise.send_emote("emote-blowkisses")
 
-        if        message.startswith("ðŸ˜Š") or      message.startswith("ðŸ¥°") or      message.startswith("ðŸ˜³") or message.startswith("ðŸ¤—"):
+        if        message.startswith("Ã°Å¸ËœÅ ") or      message.startswith("Ã°Å¸Â¥Â°") or      message.startswith("Ã°Å¸ËœÂ³") or message.startswith("Ã°Å¸Â¤â€”"):
             await self.highrise.send_emote("idle-uwu",user.id)
             await self.highrise.send_emote("emote-blowkisses")
 
-        if        message.startswith("ðŸ¤¢") or      message.startswith("ðŸ¤®") or      message.startswith("ðŸ¤§") or             message.startswith("ðŸ˜µâ€ðŸ’«") or message.startswith("ðŸ¤’"):
+        if        message.startswith("Ã°Å¸Â¤Â¢") or      message.startswith("Ã°Å¸Â¤Â®") or      message.startswith("Ã°Å¸Â¤Â§") or             message.startswith("Ã°Å¸ËœÂµÃ¢â‚¬ÂÃ°Å¸â€™Â«") or message.startswith("Ã°Å¸Â¤â€™"):
             await self.highrise.send_emote("emoji-gagging",user.id)
 
-        if        message.startswith("ðŸ˜±") or      message.startswith("ðŸ˜¬") or      message.startswith("ðŸ˜°") or             message.startswith("ðŸ˜«") or message.startswith("ðŸ˜¨"):
+        if        message.startswith("Ã°Å¸ËœÂ±") or      message.startswith("Ã°Å¸ËœÂ¬") or      message.startswith("Ã°Å¸ËœÂ°") or             message.startswith("Ã°Å¸ËœÂ«") or message.startswith("Ã°Å¸ËœÂ¨"):
             await self.highrise.send_emote("idle-nervous",user.id)
 
-        if message.startswith("ðŸ¤¯"):
+        if message.startswith("Ã°Å¸Â¤Â¯"):
             await self.highrise.send_emote("emote-headblowup",user.id)
 
-        if        message.startswith("â˜ºï¸") or      message.startswith("ðŸ«£") or       message.startswith("ðŸ˜") or      message.startswith("ðŸ¥º") or message.startswith("ðŸ¥¹"):
+        if        message.startswith("Ã¢ËœÂºÃ¯Â¸Â") or      message.startswith("Ã°Å¸Â«Â£") or       message.startswith("Ã°Å¸ËœÂ") or      message.startswith("Ã°Å¸Â¥Âº") or message.startswith("Ã°Å¸Â¥Â¹"):
             await self.highrise.send_emote("emote-shy2",user.id)
 
-        if        message.startswith("ðŸ˜") or     message.startswith("ðŸ™ƒ") or     message.startswith("ðŸ¤¤") or     message.startswith("ðŸ˜‹") or     message.startswith("ðŸ˜") or message.startswith("ðŸ˜ˆ"):
+        if        message.startswith("Ã°Å¸ËœÂ") or     message.startswith("Ã°Å¸â„¢Æ’") or     message.startswith("Ã°Å¸Â¤Â¤") or     message.startswith("Ã°Å¸Ëœâ€¹") or     message.startswith("Ã°Å¸ËœÂ") or message.startswith("Ã°Å¸ËœË†"):
             await self.highrise.send_emote("emote-lust",user.id)           
 
-        if        message.startswith("ðŸ¥µ") or message.startswith("ðŸ« "):
+        if        message.startswith("Ã°Å¸Â¥Âµ") or message.startswith("Ã°Å¸Â« "):
             await self.highrise.send_emote("emote-hot",user.id)
                    
         if        message.startswith("!wrong") or   message.startswith("wrong") or      message.startswith("/wrong") or      message.startswith("Wrong") or message.startswith("1"):
             await self.highrise.send_emote("dance-wrong",user.id)
-            await self.highrise.chat(f" You will like this emote {user.username} ðŸ˜")
+            await self.highrise.chat(f" You will like this emote {user.username} Ã°Å¸ËœÂ")
 
         if        message.startswith("/fashion") or      message.startswith("fashion") or       message.startswith("!fashion") or      message.startswith("Fashion") or message.startswith("2"):
             await self.highrise.send_emote("emote-fashionista",user.id)
-            await self.highrise.chat(f" You will like this emote {user.username} ðŸ˜")
+            await self.highrise.chat(f" You will like this emote {user.username} Ã°Å¸ËœÂ")
 
         if        message.startswith("/gravity") or      message.startswith("gravity") or       message.startswith("!gravity") or      message.startswith("Gravity") or message.startswith("3"):
             await self.highrise.send_emote("emote-gravity",user.id)
-            await self.highrise.chat(f" You will like this emote {user.username} ðŸ˜")
+            await self.highrise.chat(f" You will like this emote {user.username} Ã°Å¸ËœÂ")
 
         if        message.startswith("/icecream") or                                message.startswith("icecream") or message.startswith("!icecream") or      message.startswith("Icecream") or message.startswith("4"):
             await self.highrise.send_emote("dance-icecream",user.id)
-            await self.highrise.chat(f" You will like this emote {user.username} ðŸ˜")
+            await self.highrise.chat(f" You will like this emote {user.username} Ã°Å¸ËœÂ")
 
         if        message.startswith("/casual") or  message.startswith("casual") or     message.startswith("!casual") or      message.startswith("Casual") or message.startswith("5"):
             await self.highrise.send_emote("idle-dance-casual",user.id)
-            await self.highrise.chat(f" You will like this emote {user.username} ðŸ˜")
+            await self.highrise.chat(f" You will like this emote {user.username} Ã°Å¸ËœÂ")
 
         if        message.startswith("/kiss") or      message.startswith("!kiss") or  message.startswith("kiss") or      message.startswith("Kiss") or message.startswith("6"):
             await self.highrise.send_emote("emote-kiss",user.id)
-            await self.highrise.chat(f" You will like this emote {user.username} ðŸ˜")
+            await self.highrise.chat(f" You will like this emote {user.username} Ã°Å¸ËœÂ")
 
         if        message.startswith("/no") or      message.startswith("no") or            message.startswith("!no") or      message.startswith("No") or message.startswith("7"):
             await self.highrise.send_emote("emote-no",user.id)
-            await self.highrise.chat(f" You will like this emote {user.username} ðŸ˜")
+            await self.highrise.chat(f" You will like this emote {user.username} Ã°Å¸ËœÂ")
         if        message.startswith("/sad") or      message.startswith("!sad") or    message.startswith("sad") or     message.startswith("Sad") or message.startswith("8"):
             await self.highrise.send_emote("emote-sad",user.id)
             
@@ -1151,7 +1176,7 @@ class Bot(BaseBot):
           if user.username in moderators:
               pass
           else:
-              await self.highrise.chat("Voce nÃ£o tem permissao para usar esse comando.")
+              await self.highrise.chat("Voce nÃƒÂ£o tem permissao para usar esse comando.")
               return
           #separete message into parts
           parts = message.split()
@@ -1204,7 +1229,7 @@ class Bot(BaseBot):
                   Item(type='clothing', amount=1, id='eyebrow-n_basic2018newbrows14', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[1] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[1] added to the bot. ")
           
 
         if message == "!fit 2" and user.username in moderators:
@@ -1228,7 +1253,7 @@ class Bot(BaseBot):
                   Item(type='clothing', amount=1, id='eyebrow-n_08', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[2] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[2] added to the bot. ")
 
         if message == "!fit 3"  and user.username in moderators:
           shirt = ["shirt-f_punklace"]
@@ -1254,7 +1279,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
 
 
           ]) 
-          await self.highrise.chat(f"ðŸ‘•FIT[3] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[3] added to the bot. ")
 
         if message == "!fit 4" and user.username in moderators:
           shirt = ["shirt-n_room22019bratoppink"]
@@ -1277,7 +1302,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
                   Item(type='clothing', amount=1, id='eyebrow-n_26', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[4] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[4] added to the bot. ")
             
         if message == "!fit 5" and user.username in moderators:
           shirt = ["shirt-n_room12019cropsweaterblack"]
@@ -1302,7 +1327,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
                   Item(type='clothing', amount=1, id='freckle-n_basic2018freckle32', account_bound=False, active_palette=-1),
 
           ]) 
-          await self.highrise.chat(f"ðŸ‘•FIT[5] added to the bot. ")       
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[5] added to the bot. ")       
 
         if message == "!fit 6" and user.username in moderators:
           shirt = ["shirt-n_room32019longlineteesweatshirtgrey"]
@@ -1325,7 +1350,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
                   Item(type='clothing', amount=1, id='eyebrow-n_04', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[6] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[6] added to the bot. ")
 
         if message == "!fit 7" and user.username in moderators:
           shirt = ["shirt-n_starteritems2019pulloverblack"]
@@ -1348,7 +1373,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
                   Item(type='clothing', amount=1, id='eyebrow-n_26', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[7] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[7] added to the bot. ")
 
         if message == "!fit 8" and user.username in moderators:
           shirt = ["shirt-n_registrationavatars2023arianadress"]
@@ -1373,7 +1398,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
                   Item(type='clothing', amount=1, id='eyebrow-n_08', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[8] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[8] added to the bot. ")
 
         if message == "!fit 9" and user.username in moderators:
           shirt = ["shirt-n_room12019sweaterwithbuttondowngrey"]
@@ -1395,7 +1420,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
                   Item(type='clothing', amount=1, id='nose-n_03_b', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[9] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[9] added to the bot. ")
 
         if message == "!fit 10" and user.username in moderators:
           shirt = ["shirt-n_winxudcrwrdsone2024winxblueshirt"]
@@ -1420,7 +1445,7 @@ Item(type='clothing', amount=1, id='earrings-n_room12019goldhoops', account_boun
                   Item(type='clothing', amount=1, id='eyebrow-n_08', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[10] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[10] added to the bot. ")
 
         if message == "!fit 11" and user.username in moderators:
           shirt = ["shirt-n_registrationavatars2023gothguyhoodie"]
@@ -1446,7 +1471,7 @@ Item(type='clothing', amount=1, id='bag-n_registrationavatars2023furrytail', acc
                   Item(type='clothing', amount=1, id='hat-n_registrationavatars2023wolfears', account_bound=False, active_palette=-1),
 
           ])
-          await self.highrise.chat(f"ðŸ‘•FIT[11] added to the bot. ")
+          await self.highrise.chat(f"Ã°Å¸â€˜â€¢FIT[11] added to the bot. ")
             
     async def teleport(self, user: User, position: Position):
         try:
