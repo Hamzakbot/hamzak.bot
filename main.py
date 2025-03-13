@@ -5,7 +5,7 @@ from highrise import*
 from highrise import BaseBot,Item,Position
 from highrise.models import SessionMetadata
 
-moderators = ["_Thomash","ghost.17","__.HALAA.__"]
+moderators = ["_Thomash","ghost.17","__.HALAA.__","Tashacp","franklin2.02"]
 
 casa = ["I Marry You Ã°Å¸â€™Â","Of course I do Ã°Å¸â€™ÂÃ¢ÂÂ¤Ã¯Â¸Â","I don't want to Ã°Å¸â€™ÂÃ°Å¸â€™â€","Of course I don't Ã°Å¸â€™ÂÃ°Å¸â€™â€","I Love You Of course I marry you Ã°Å¸â€™Â"]
 
