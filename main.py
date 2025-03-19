@@ -5,7 +5,7 @@ from highrise import*
 from highrise import BaseBot,Item,Position
 from highrise.models import SessionMetadata
 
-moderators = ["_Thomash","ghost.17","__.HALAA.__","Tashacp","franklin2.02"]
+moderators = ["_Thomash","ghost.17","__.HALAA.__"]
 
 casa = ["I Marry You Ã°Å¸â€™Â","Of course I do Ã°Å¸â€™ÂÃ¢ÂÂ¤Ã¯Â¸Â","I don't want to Ã°Å¸â€™ÂÃ°Å¸â€™â€","Of course I don't Ã°Å¸â€™ÂÃ°Å¸â€™â€","I Love You Of course I marry you Ã°Å¸â€™Â"]
 
@@ -27,9 +27,9 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(14.5 , 2.0 , 6.5 , "FrontLeft"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.chat(f"Welcome {user.username} to the room ❤️")
+        await self.highrise.chat(f"Welcome {user.username} to the room â¤ï¸")
 
-        await self.highrise.chat(f" {user.username} has entered to the room 💓")
+        await self.highrise.chat(f" {user.username} has entered to the room â¤ï¸")
            
         await self.highrise.send_emote("hcc-jetpack")
       
@@ -182,6 +182,17 @@ class Bot(BaseBot):
                     await self.highrise.chat(f"You have been tipped {amount_str}.")
                 except (IndexError, ValueError):
                     await self.highrise.chat("Invalid tip amount. Please specify a valid number.")
+
+
+        if message.lower().startswith("!say") and user.username in moderators:
+            custom_message = message[len("!say"):].strip()
+            if not custom_message:
+                await self.highrise.send_whisper(user.id, "Please provide a message to send.")
+                return
+
+            conversations = self.load_conversations()
+            for conversation_id in conversations.keys():
+                await self.highrise.send_message(conversation_id, content=custom_message)
                     
         if message.startswith("/fish"):
             await self.highrise.send_whisper(user.id,"You Are Fishing Ã°Å¸Å½Â£...")
