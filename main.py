@@ -5,7 +5,7 @@ from highrise import*
 from highrise import BaseBot,Item,Position
 from highrise.models import SessionMetadata
 
-moderators = ["_Thomash","ghost.17","__.HALAA.__","benstokes1"]
+moderators = ["_Thomash","ghost.17","__.HALAA.__","benstokes1","Angeluul"]
 
 casa = ["I Marry You ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â","Of course I do ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚ÂÃƒÂ¢Ã‚ÂÃ‚Â¤ÃƒÂ¯Ã‚Â¸Ã‚Â","I don't want to ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚ÂÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã¢â‚¬Â","Of course I don't ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚ÂÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã¢â‚¬Â","I Love You Of course I marry you ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â"]
 
@@ -27,7 +27,7 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(0 , 0 , 0 , "FrontLeft"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.chat(f"Welcome {user.username} to the room ❤️")
+        await self.highrise.chat(f"Welcome {user.username} to the angels grab room ❤️")
 
         await self.highrise.chat(f" {user.username} has entered to the room 💓💘")
            
